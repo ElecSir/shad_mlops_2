@@ -135,6 +135,16 @@ docker-compose up --build
 Перейдите в браузере по адресу: [http://localhost:8501](http://localhost:8501)  
 Загрузите CSV файл с данными транзакций и нажмите "Отправить", чтобы данные попали в Kafka.
 
+### 5. Активация datasource PostgreSQL
+
+Чтобы график с фильтрами отображался корректно выполните следующие действия:
+1. Откройте Grafana: http://localhost:3000
+2. Войдите с логином admin / admin
+3. В левом меню перейдите в Connections → Data sources
+4. Нажмите на datasource grafana-postgresql-datasource (он уже создан автоматически)
+5. Прокрутите страницу до конца и нажмите кнопку Save & test
+6. Должно появиться сообщение "Database Connection OK"
+
 
 
 ## Доступные сервисы
