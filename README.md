@@ -203,6 +203,9 @@ docker-compose up --build
 | transaction_id   | TEXT         | Идентификатор транзакции                |
 | score            | FLOAT        | Вероятность мошенничества (порог = 0,5) |
 | fraud_flag       | INT          | 1 — мошенничество, 0 — норма            |
+| us_state         | TEXT         | Штат США                                |
+| merch            | TEXT         | Мерчендайзер                            |
+| cat_id           | TEXT         | Категория транзакции                    |
 | created_at       | TIMESTAMP    | Дата и время записи                     |
 
 ---
