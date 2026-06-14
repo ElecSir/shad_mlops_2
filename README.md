@@ -104,7 +104,7 @@
 ### 1. Клонируйте репозиторий
 
 ```bash
-git clone https://github.com/OrlovAlexandr/shad_mlops_2.git
+git clone https://github.com/ElecSir/shad_mlops_2.git
 cd shad_mlops_2
 ```
 
@@ -129,6 +129,11 @@ docker-compose up --build
 
 
 Первый запуск может занять несколько минут — образы будут скачаны и собраны.
+
+### 4. Загрузите данные
+
+Перейдите в браузере по адресу: [http://localhost:8501](http://localhost:8501)
+Загрузите CSV файл с данными транзакций и нажмите "Отправить", чтобы данные попали в Kafka.
 
 
 
